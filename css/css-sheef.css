@@ -298,6 +298,7 @@ section .animate2{
     background: #fefefe;
     border-radius: 2rem;
     border: rgb(53, 53, 53) .1rem solid;
+    text-align: center;
 }
 
 .bth:hover{
@@ -625,6 +626,16 @@ footer .grup2{
 
     .download .container .sub-title{
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .download .container .title{
+        font-size: 1.8rem;
+    }
+    
+    .download .container .sub-title{
+        font-size: 1.3rem;
     }
 }
 
