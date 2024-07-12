@@ -672,10 +672,8 @@ footer .grup2{
         width: 70%;
     }
     
-
-
-    .download .title{
-        font-size: 1.6rem;
+    .download .container .title{
+        font-size: 1.4rem;
     }
 
     .download .container .sub-title{
