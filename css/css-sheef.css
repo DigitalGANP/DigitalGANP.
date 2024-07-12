@@ -696,7 +696,7 @@ footer .grup2{
     }
 
     .content .imag{
-        width: 45%;
+        width: 40%;
         transform: translate(150px, -45px);
     }
 
@@ -706,7 +706,7 @@ footer .grup2{
     }
 
     .sec-02 .content .imag{
-        width: 50%;
+        width: 45%;
         transform: translate(-120px, 80px);
     }
 
@@ -719,7 +719,7 @@ footer .grup2{
         margin-left: 80px;
     }
     .sec-03 .content .imag{
-        width: 55%;
+        width: 41%;
         transform: translate(180px);
     }
 
@@ -733,8 +733,8 @@ footer .grup2{
         margin-left: 78px;
     }
 
-    .download .title{
-        font-size: 1.3rem;
+    .download .container .title{
+        font-size: 1.2rem;
     }
 
     .download .container .sub-title{
