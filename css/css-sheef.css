@@ -326,7 +326,7 @@ footer .grup1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 40px 0px
+    padding: 40px 0px;
 }
 
 footer .grup1 .box figure{
@@ -701,13 +701,13 @@ footer .grup2{
     }
 
     .content .text{
-        width: 45%;
-        transform: translate(-140px, 80px);
+        width: 43%;
+        transform: translate(-135px, 80px);
     }
 
     .sec-02 .content .imag{
         width: 45%;
-        transform: translate(-120px, 80px);
+        transform: translate(-130px, 80px);
     }
 
     .content .text2{
@@ -716,25 +716,34 @@ footer .grup2{
     }
     
     .sec-03 .title{
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .sec-03 .content .imag{
-        width: 41%;
+        width: 45%;
         transform: translate(180px);
     }
 
     .sec-03 .content .info{
-        width: 45%;
-        transform: translate(-80px);
+        width: 40%;
+        transform: translate(-85px);
     }
 
     .sec-04 .title{
-        font-size: 1.5rem;
-        margin-left: 78px;
+        font-size: 1.3rem;
+        margin-left: 60px;
+    }
+
+    .sec-04 .content .info{
+        width: 65%;
+        margin-right: 8px;
+    }
+
+    .download .container .article{
+        width: 42%;
     }
 
     .download .container .title{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .download .container .sub-title{
@@ -751,7 +760,7 @@ footer .grup2{
 
     footer .grup1 .box .fa{
         padding-left: 5px;
-        width: 25%;
+        width: 30%;
     }
 }
 
@@ -816,6 +825,7 @@ footer .grup2{
     }
 
     footer .grup1 .box .social{
-        width: 130%;
+        width: 120%;
+        padding-right: 5px;
     }
 }
