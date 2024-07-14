@@ -171,11 +171,8 @@ section{
     color: #eee;
 }
 
-.sec-03{
-    margin-top: -400px;
-}
-
 .sec-04 .title{
+    margin-top: -310px;
     font-size: 3rem;
     text-align: center;
 }
@@ -197,7 +194,7 @@ footer .grup1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 40px 0px
+    padding: 20px 0px
 }
 
 footer .grup1 .box figure{
@@ -209,7 +206,7 @@ footer .grup1 .box figure{
 }
 
 footer .grup1 .box img{
-    width: 70%;
+    width: 60%;
 }
 
 footer .grup1 .box h3{
@@ -229,7 +226,7 @@ footer .grup2{
     color: #eee;
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1420px) {
     
     header{
         padding: 0 50px;
@@ -269,15 +266,51 @@ footer .grup2{
         height: 450px;
     }
 
-    .sec-03 .content h3{
-        font-size: 1.5em;
+    .sec-03 .title{
+        margin-top: 150px;
+        margin-left: 20px;
     }
 
     .sec-03 .content{
         width: 1000px;
     }
+
+    .sec-04 .container .title{
+        margin-top: 50px;
+        font-size: 2.8rem;
+    }
+
+    .vid{
+        margin-left: 40px;
+    }
 }
 
+@media only screen and (max-width: 1100px){
+    .sec-03 .title{
+        font-size: 2.6rem;
+    }
+
+    .vid iframe{
+        width: 770px;
+        
+    }
+
+    .sec-2 .content .text2{
+        width: 35%;
+    }
+
+    .sec-2 .title{
+        margin-bottom: 50px;
+    }
+
+    footer .grup1{
+        width: 90%;
+    }
+
+    footer .grup1 .box .fa{
+        width: 20%;
+    }
+}
 
 @media only screen and (max-width: 900px){
     header{
@@ -338,4 +371,251 @@ footer .grup2{
         background: #fefefe;
     }
 
+    .sec-02 .content .imag{
+        width: 35%;
+    }
+
+    .sec-03 .title{
+        font-size: 1.8rem;
+    }
+
+    .sec-04 .container .title{
+        font-size: 1.5rem;
+        width: 75%;
+    }
+
+    .vid iframe{
+        width: 650px;
+        height: 400px;
+        margin-right: 30px;
+    }
+
+    .sec-2 .content .text2{
+        width: 28%;
+        margin-right: 25px;
+    }
+
+    .sec-2 .title{
+        font-size: 2.5rem;
+    }
+
+    footer .grup1{
+        width: 90%;
+    }
+
+    .grup1 .box .sub{
+        font-size: 1.2rem;
+    }
+
+    footer .grup1 .box .fa{
+        width: 24%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .sec-02 .title{
+        font-size: 2.3rem;
+    }
+
+    .sec-02 .content .text{
+        width: 60%;
+    }
+
+    .sec-02 .content .imag{
+        width: 30%;
+        margin-right: 55px;
+    }
+
+    .sec-03 .title{
+        margin-top: -10px;
+    }
+
+    .sec-04 .container .title{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 65%;
+        margin-top: -250px;
+    }
+
+    .vid iframe{
+        width: 600px;
+        height: 350px;
+        margin-right: 30px;
+    }
+
+    .sec-2 .content{
+        display: grid;
+        row-gap: 40px;
+    }
+
+    .sec-2 .content .text2{
+        width: 400px;
+        margin: auto;
+    }
+
+    .sec-2 .title{
+        margin-top: -300px;
+        font-size: 2rem;
+    }
+
+    footer .grup1 .box img{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .sec-02 .title{
+        font-size: 2rem;
+    }
+
+    .sec-02 .content .text{
+        width: 35%;
+    }
+
+    .sec-02 .content .imag{
+        width: 30%;
+        margin-right: 55px;
+    }
+
+    .vid iframe{
+        width: 480px;
+        height: 300px;
+    }
+
+    .sec-04 .container .title{
+        font-size: 1.6rem;
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .sec-02 .title{
+        font-size: 1.8rem;
+    }
+
+    .sec-02 .content .text{
+        width: 30%;
+        transform: translate(50px);
+    }
+
+    .sec-02 .content .imag{
+        width: 27%;
+    }
+
+    .sec-04 .container .title{
+        font-size: 1.6rem;
+        width: 40%;
+    }
+
+    .sec-2 .title{
+        font-size: 1.8rem;
+    }
+    
+    footer .grup1 .box img{
+        width: 100%;
+    }
+
+    footer .grup2{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .sec-02 .title{
+        font-size: 1.5rem;
+        margin-top: -190px;
+    }
+
+    .sec-02 .content .imag{
+        width: 265px;
+        height: 250px;
+        margin-left: 45px;
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+
+    .sec-02 .content .text{
+        width: 40%;
+        height: 350px;
+        transform: translateY(200px);
+    }
+
+    .sec-03 .title{
+        font-size: 1.4rem;
+    }
+
+    .sec-04 .container .title{
+        font-size: 1.4rem;
+        width: 35%;
+    }
+
+    .sec-2 .title{
+        font-size: 1.4rem;
+    }
+
+    .vid iframe{
+        width: 380px;
+        height: 250px;  
+    }
+
+    .sec-2 .content .text2{
+        width: 300px;
+    }
+
+    footer .grup1 .box img{
+        width: 110%;
+    }
+
+    footer .grup1 .box .sub{
+        font-size: .9rem;
+    }
+
+    footer .grup1 .box .fa{
+        padding-left: 5px;
+        width: 30%;
+    }
+
+    footer .grup1 .box img{
+        width: 130%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sec-02 .title{
+        font-size: 1.35rem;
+        
+    }
+
+    .sec-02 .content .text{
+        width: 35%;
+        height: 300px;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .sec-04 .container .title{
+        font-size: 1.4rem;
+        width: 30%;
+    }
+
+    .vid iframe{
+        width: 300px;
+        height: 210px;  
+    }
+
+    footer .grup1 .box img{
+        width: 140%;
+    }
+
+    footer .grup1 .box .sub{
+        font-size: .8rem;
+    }
+
+    footer .grup1 .box .social{
+        width: 120%;
+        transform: translateX(-20px);
+    }
 }

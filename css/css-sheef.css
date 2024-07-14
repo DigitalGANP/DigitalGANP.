@@ -326,7 +326,7 @@ footer .grup1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 
 footer .grup1 .box figure{
@@ -338,7 +338,7 @@ footer .grup1 .box figure{
 }
 
 footer .grup1 .box img{
-    width: 70%;
+    width: 60%;
 }
 
 footer .grup1 .box h3{
@@ -358,7 +358,7 @@ footer .grup2{
     color: #eee;
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1420px) {
     header{
         padding: 0 50px;
     }
@@ -464,6 +464,10 @@ footer .grup2{
 
     footer .grup1{
         width: 90%;
+    }
+
+    footer .grup1 .box .fa{
+        width: 20%;
     }
 }
 
@@ -627,6 +631,10 @@ footer .grup2{
     .download .container .sub-title{
         font-size: 1.5rem;
     }
+
+    footer .grup1 .box img{
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 700px){
@@ -762,26 +770,34 @@ footer .grup2{
         padding-left: 5px;
         width: 30%;
     }
+
+    footer .grup1 .box img{
+        width: 130%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
+    .sec-01 .title{
+        font-size: 1.45rem;
+    }
+    
     .content .imag{
-        width: 38%;
+        width: 35%;
         transform: translate(180px);
     }
 
     .content .text{
         width: 35%;
-        transform: translate(-200px);
+        transform: translate(-170px);
     }
 
     .content .text2{
-        width: 35%;
+        width: 33%;
         transform: translate(73px);
     }
 
     .sec-02 .content .imag{
-        width: 35%;
+        width: 30%;
         transform: translate(-73px);
     }
 
@@ -792,32 +808,32 @@ footer .grup2{
     }
 
     .sec-03 .content .imag{
-        width: 45%;
+        width: 37%;
         transform: translate(160px);
     }
 
     .sec-04 .title{
-        font-size: 1.3rem
+        font-size: 1.1rem
     }
 
-    .sec-04 .info{
+    .sec-04 .content .info{
         width: 55%;
     }
 
     .download .container .title{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
-    .article{
+    .download .container .article{
         width: 40%;
     }
 
     .download .container .sub-title{
-        font-size: .8rem;
+        font-size: .75rem;
     }
 
     footer .grup1 .box img{
-        width: 120%;
+        width: 140%;
     }
 
     footer .grup1 .box .sub{
@@ -826,6 +842,6 @@ footer .grup2{
 
     footer .grup1 .box .social{
         width: 120%;
-        padding-right: 5px;
+        transform: translateX(-20px);
     }
 }
